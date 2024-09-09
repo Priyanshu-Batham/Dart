@@ -30,11 +30,12 @@ void writeFunctions() {
 
 void typeCasting() {
   /*
-    '!' is used to make a variable non-nullable
+    '!' is used to suppress non-nullable warning
     '?' is used to make a variable nullable
    */
   stdout.write("Enter a number: ");
   int num = int.parse(stdin.readLineSync()!);
+
   print("val: $num");
 }
 
